@@ -1,0 +1,5 @@
+prenoms_api:
+    resource: "@PrenomsApiBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

@@ -1,0 +1,7 @@
+services:
+#    prenoms_api.example:
+#        class: PrenomsApiBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
+
+    import.csvtoarray:
+        class: PrenomsApiBundle\Services\ConvertCsvToArray

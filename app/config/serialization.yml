@@ -1,0 +1,12 @@
+PrenomsApiBundle\Entity\Metrics:
+    attributes:
+        id:
+            groups: ['id']
+        count:
+            groups: ['firstname', 'year', 'sex']
+        firstname:
+            groups: ['year', 'sex']
+        sex:
+            groups: ['firstname', 'year']
+        year:
+            groups: ['firstname', 'sex']
